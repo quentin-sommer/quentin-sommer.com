@@ -8,7 +8,7 @@
     "bundle:view": "webpack-bundle-analyzer .next/stats.json",
     "lint": "prettier --no-semi --single-quote --no-bracket-spacing --trailing-comma es5 './{components,layouts,lib,pages}/**/*.js' --write",
     "start": "per-env",
-    "start:development": "next dev",
+    "start:development": "npm run lint && next dev",
     "start:production": "next start"
   },
   "repository": {
@@ -22,16 +22,20 @@
   },
   "homepage": "https://github.com/quentin-sommer/quentin-sommer.com#readme",
   "dependencies": {
-    "next": "beta",
+    "next": "^2.4.4",
     "per-env": "^1.0.2",
     "prettier": "^1.4.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "styled-components": "^2.1.0"
+    "react-ga": "^2.2.0",
+    "react-typography": "^0.15.10",
+    "styled-components": "^2.1.0",
+    "typography": "^0.15.10"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.1.4",
     "babel-plugin-transform-define": "^1.3.0",
+    "prop-types": "^15.5.10",
     "webpack-bundle-analyzer": "^2.8.2"
   }
 }

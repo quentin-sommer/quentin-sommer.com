@@ -1,5 +1,8 @@
+import * as React from 'react'
 import Document, {Head, Main, NextScript} from 'next/document'
-import {ServerStyleSheet} from 'styled-components'
+import styled, {ServerStyleSheet} from 'styled-components'
+import {TypographyStyle, GoogleFont} from 'react-typography'
+import typography from '../lib/typography'
 
 export default class MyDocument extends Document {
   render() {
@@ -9,6 +12,8 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+          <TypographyStyle typography={typography} />
+          <GoogleFont typography={typography} />
           {styleTags}
         </Head>
         <body>

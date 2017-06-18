@@ -1,12 +1,13 @@
 const prod = process.env.NODE_ENV === 'production'
 
 const defaultConfig = {
-  GA_ID: 'dev-ga',
-  HOTJAR_ID: 'dev-hotjar',
+  __DEV__: true,
+  __GA_ID__: 'dev-ga',
 }
 
 const prodConfig = Object.assign({}, defaultConfig, {
-  GA_ID: 'REAL GA',
+  __DEV__: false,
+  __GA_ID__: 'REAL GA',
 })
 
 module.exports = prod ? prodConfig : defaultConfig

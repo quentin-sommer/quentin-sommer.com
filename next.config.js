@@ -1,5 +1,6 @@
 const IgnorePlugin = require('webpack').IgnorePlugin
 const {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer')
+const path = require('path')
 
 const disableBableLoderCache = config => {
   // workaround to force the refresh of env-config.js values at each start
@@ -25,7 +26,7 @@ const injectBundleAnalyzerPlugin = config => {
 
 module.exports = {
   webpack: (config, {dev}) => {
-    if (dev) {
+    if (!dev) {
       injectBundleAnalyzerPlugin(config)
     }
     disableBableLoderCache(config)
