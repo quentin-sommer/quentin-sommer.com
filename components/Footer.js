@@ -25,10 +25,11 @@ const PhotoCredit = styled.a`
   display:inline-block;
   border-radius:3px;
 `
+const MarginDiv = styled.div`margin: 1rem 0;`
 
 const Footer = () =>
   <StyledFooter>
-    <div>
+    <MarginDiv>
       <P style={{marginBottom: '0'}}>Header photo</P>
       <PhotoCredit
         href="http://unsplash.com/@aleksdahlberg?utm_campaign=photographer-credit"
@@ -56,13 +57,13 @@ const Footer = () =>
           Aleks Dahlberg
         </span>
       </PhotoCredit>
-    </div>
-    <div>
+    </MarginDiv>
+    <MarginDiv>
       <SocialLinks />
-    </div>
-    <div>
+    </MarginDiv>
+    <MarginDiv>
       <P>© 2017 Quentin Sommer</P>
-    </div>
+    </MarginDiv>
   </StyledFooter>
 
 export default Footer
