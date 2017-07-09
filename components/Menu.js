@@ -29,17 +29,17 @@ const Menu = () => {
             Home
           </Link>
         </MenuItem>
-        <MenuItem active={route === '/work'}>
+        <MenuItem active={route.includes('/work')}>
           <Link href="/work" clean prefetch>
             Work
           </Link>
         </MenuItem>
-        <MenuItem active={route === '/open-source'}>
+        <MenuItem active={route.includes('/open-source')}>
           <Link href="/open-source" clean prefetch>
             OSS
           </Link>
         </MenuItem>
-        <MenuItem active={route === '/contact'}>
+        <MenuItem active={route.includes('/contact')}>
           <Link href="/contact" clean prefetch>
             Contact
           </Link>
