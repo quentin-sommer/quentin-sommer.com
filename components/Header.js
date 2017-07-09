@@ -4,29 +4,34 @@ import HeaderTitle from './Titles/HeaderTitle'
 import Link from './Link'
 import Menu from './Menu'
 import SocialLinks from './SocialLinks'
+import sizes from '../lib/sizes'
 
 const HeaderContainer = styled.div`
   background: url(/static/background.jpg) center;
-  min-height: 400px;
-  height: 40vh;
-  min-height: 350px;
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 3rem;
+  @media (min-width: ${sizes.tablet}px) {
+    height: 40vh;
+    min-height: 350px;
+  }
 `
-
+const TopMarginDiv = styled.div`margin-top: ${props => props.margin}rem;`
 const Header = () =>
   <HeaderContainer>
     <div>
       <Link href="/" clean>
         <HeaderTitle center>Quentin Sommer</HeaderTitle>
       </Link>
-      <div>
-        <SocialLinks />
-      </div>
-      <Menu />
+      <TopMarginDiv margin="0">
+        <SocialLinks center />
+      </TopMarginDiv>
+      <TopMarginDiv margin="2">
+        <Menu />
+      </TopMarginDiv>
     </div>
   </HeaderContainer>
 

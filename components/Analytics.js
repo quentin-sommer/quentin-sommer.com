@@ -12,9 +12,10 @@ export default class Analytics extends React.PureComponent {
       debug: __DEV__,
     })
 
-    const page = this.props.pageName === UNSET
-      ? window.location.pathname + window.location.search
-      : this.props.pageName
+    const page =
+      this.props.pageName === UNSET
+        ? window.location.pathname + window.location.search
+        : this.props.pageName
 
     ReactGA.set({page})
     ReactGA.pageview(page)

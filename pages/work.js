@@ -31,7 +31,9 @@ const projects = [
 const WorkPage = () =>
   <Page>
     <H1>Projects</H1>
-    <P><b>sort by</b> date <b>desc</b></P>
+    <P>
+      <b>sort by</b> date <b>desc</b>
+    </P>
     <ProjectList projects={projects} />
   </Page>
 

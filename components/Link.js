@@ -15,7 +15,7 @@ const A = styled.a`
   color: inherit;
   cursor: pointer;
   ${props =>
-    props.clean ? 'text-decoration: none;' : 'text-decoration: underline;'}
+    props.clean ? 'text-decoration: none;' : 'text-decoration: underline;'};
 `
 
 const Link = ({children, href, external, ...props}) =>

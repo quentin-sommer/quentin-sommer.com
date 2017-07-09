@@ -4,22 +4,25 @@ import Analytics from '../components/Analytics'
 import Header from '../components/Header'
 import theme from '../lib/theme'
 import Footer from '../components/Footer'
+import Container from '../components/Container'
 
 const StyledBase = styled.div`
-  background-color: ${props => props.theme.bg};
   min-height: 100vh;
-  
+  display: flex;
+  flex-direction: column;
 `
 
 const Base = ({children}) =>
   <ThemeProvider theme={theme}>
     <StyledBase>
       <Analytics track />
-      <div>
-        <Header />
+      <Header />
+      <div style={{flex: 1}}>
         {children}
-        <Footer />
       </div>
+      <Container>
+        <Footer />
+      </Container>
     </StyledBase>
   </ThemeProvider>
 

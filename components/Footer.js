@@ -1,9 +1,17 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import P from './P'
+import SocialLinks from './SocialLinks'
+import HR from './HR'
+import sizes from '../lib/sizes'
 
 const StyledFooter = styled.footer`
-  height: 5rem;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (min-width: ${sizes.tablet}px) {
+    flex-direction: row;
+  }
 `
 const PhotoCredit = styled.a`
   background-color:black;
@@ -20,8 +28,8 @@ const PhotoCredit = styled.a`
 
 const Footer = () =>
   <StyledFooter>
-    <P>
-      Header photo:
+    <div>
+      <P style={{marginBottom: '0'}}>Header photo</P>
       <PhotoCredit
         href="http://unsplash.com/@aleksdahlberg?utm_campaign=photographer-credit"
         target="_blank"
@@ -48,7 +56,13 @@ const Footer = () =>
           Aleks Dahlberg
         </span>
       </PhotoCredit>
-    </P>
+    </div>
+    <div>
+      <SocialLinks />
+    </div>
+    <div>
+      <P>© 2017 Quentin Sommer</P>
+    </div>
   </StyledFooter>
 
 export default Footer

@@ -13,13 +13,13 @@ const projects = [
   },
   {
     name: 'feathers-datastore',
-    description: '1 pull request (bug fix)',
+    description: '1 pull request',
     date: '26 April 2017',
     url: 'https://github.com/bedeoverend/feathers-datastore',
   },
   {
     name: 'react-jsonschema-form',
-    description: '1 pull request (new feature)',
+    description: '1 pull request',
     date: '7 April 2017',
     url: 'https://github.com/mozilla-services/react-jsonschema-form',
   },
@@ -28,7 +28,9 @@ const projects = [
 const OpenSourcePage = () =>
   <Page>
     <H1>Open Source Contributions</H1>
-    <P><b>sort by</b> date <b>desc</b></P>
+    <P>
+      <b>sort by</b> date <b>desc</b>
+    </P>
     <ProjectList projects={projects} />
   </Page>
 

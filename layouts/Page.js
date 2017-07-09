@@ -1,16 +1,12 @@
 import * as React from 'react'
 import Base from './Base'
+import Container from '../components/Container'
 
 const Page = ({children}) =>
   <Base>
-    <div
-      style={{
-        maxWidth: '800px',
-        margin: '2rem auto',
-      }}
-    >
+    <Container>
       {children}
-    </div>
+    </Container>
   </Base>
 
 export default Page
