@@ -7,7 +7,7 @@ const defaultConfig = {
 
 const prodConfig = Object.assign({}, defaultConfig, {
   __DEV__: false,
-  __GA_ID__: 'REAL GA',
+  __GA_ID__: 'UA-77436866-4',
 })
 
 module.exports = prod ? prodConfig : defaultConfig

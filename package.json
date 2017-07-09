@@ -4,12 +4,14 @@
   "description": "Personal website",
   "main": "index.js",
   "scripts": {
-    "build": "next build ",
+    "build": "next build && next export",
     "bundle:view": "webpack-bundle-analyzer .next/stats.json",
+    "deploy": "npm run lint && npm run build && npm run upload",
     "lint": "prettier --no-semi --single-quote --no-bracket-spacing --trailing-comma es5 './{components,layouts,lib,pages}/**/*.js' --write",
     "start": "per-env",
     "start:development": "npm run lint && next dev",
-    "start:production": "next start"
+    "start:production": "next start",
+    "upload": "surge ./out www.quentin-sommer.com"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,7 @@
   },
   "homepage": "https://github.com/quentin-sommer/quentin-sommer.com#readme",
   "dependencies": {
-    "next": "^2.4.4",
+    "next": "beta",
     "per-env": "^1.0.2",
     "prettier": "^1.4.4",
     "react": "^15.6.1",
