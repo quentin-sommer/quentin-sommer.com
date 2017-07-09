@@ -4,7 +4,6 @@ import sizes from '../lib/sizes'
 
 const Container = styled.div`
   margin: 3rem .75rem;
-  width: 100%;
   max-width: 100%;
   @media (min-width: ${sizes.tablet}px) {
     max-width: 700px;

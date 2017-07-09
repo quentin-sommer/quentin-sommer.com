@@ -20,7 +20,7 @@ const Base = ({children}) =>
       <div style={{flex: 1}}>
         {children}
       </div>
-      <Container>
+      <Container style={{marginTop: 0}}>
         <Footer />
       </Container>
     </StyledBase>
