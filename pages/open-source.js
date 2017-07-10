@@ -27,7 +27,7 @@ const projects = [
 
 const OpenSourcePage = () =>
   <Page>
-    <H1>Open Source Contributions</H1>
+    <H1>Open Source Software</H1>
     <P>
       <b>sort by</b> date <b>desc</b>
     </P>
