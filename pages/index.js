@@ -55,11 +55,11 @@ const IndexPage = () =>
     <H3>Work Experiences</H3>
     <ul>
       <li>
-        <b>Apr. 2015 - July 2015 -</b> Web developer at FD Canada, Quebec
-      </li>
-      <li>
         <b>Oct. 2016 - July 2017 -</b> FullStack software Enginner at Schlouk
         Map, Strasbourg
+      </li>
+      <li>
+        <b>Apr. 2015 - July 2015 -</b> Web developer at FD Canada, Quebec
       </li>
     </ul>
     <H3>Education</H3>
