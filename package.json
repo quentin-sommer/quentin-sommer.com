@@ -11,7 +11,7 @@
     "start": "per-env",
     "start:development": "npm run lint && next dev",
     "start:production": "next start",
-    "upload": "surge ./out www.quentin-sommer.com"
+    "upload": "netlify deploy"
   },
   "repository": {
     "type": "git",
