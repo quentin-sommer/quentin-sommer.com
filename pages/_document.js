@@ -13,10 +13,7 @@ export default class MyDocument extends Document {
     return (
       <html style={{backgroundColor: theme.bg}} lang="en">
         <Head>
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta http-equiv="x-ua-compatible" content="ie=edge" />
           <TypographyStyle typography={typography} />
           <GoogleFont typography={typography} />
