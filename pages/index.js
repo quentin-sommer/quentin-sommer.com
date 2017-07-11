@@ -55,7 +55,7 @@ const IndexPage = () =>
     <H3>Work Experiences</H3>
     <ul>
       <li>
-        <b>Oct. 2016 - July 2017 -</b> FullStack software Enginner at Schlouk
+        <b>Oct. 2016 - July 2017 -</b> FullStack software Engineer at Schlouk
         Map, Strasbourg
       </li>
       <li>
