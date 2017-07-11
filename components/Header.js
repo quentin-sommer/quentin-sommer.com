@@ -7,7 +7,7 @@ import SocialLinks from './SocialLinks'
 import sizes from '../lib/sizes'
 
 const HeaderContainer = styled.div`
-  background: url(/static/background.jpg) center;
+  background: url(/static/background-small.jpg) center;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -15,6 +15,9 @@ const HeaderContainer = styled.div`
   align-items: center;
   padding-top: 3rem;
   @media (min-width: ${sizes.tablet}px) {
+    background: url(/static/background.jpg) center;
+    background-position: center;
+    background-size: cover;
     height: 40vh;
     min-height: 350px;
   }
