@@ -65,10 +65,10 @@ const IndexPage = () =>
     <H3>Education</H3>
     <ul>
       <li>
-        <b>2013-2015 -</b> IUT Robert Schumann, 2 years Computer Science degree
+        <b>2015-2019 -</b> EPITECH Strasbourg, Master degree in Computer Science
       </li>
       <li>
-        <b>2015-2019 -</b> EPITECH Strasbourg, Master degree in Computer Science
+        <b>2013-2015 -</b> IUT Robert Schumann, 2 years Computer Science degree
       </li>
     </ul>
   </Page>
