@@ -21,13 +21,10 @@ const IndexPage = () =>
     </P>
     <H2>About me</H2>
     <P>
-      I am currently studying Computer Science at EPITECH and working at{' '}
-      <Link external href="https://www.schlouk-map.com">
-        Schlouk Map
-      </Link>.<br />
-      Interested in personal development and happiness research. Adhere to the
-      Startup Entrepreneur mindset and the importance of good work/life balance
-      principle.
+      I am currently studying Computer Science at EPITECH, specializing in
+      FullStack web development. My tool of choice is JavaScript.<br />
+      Interested in personal development and happiness research. I Adhere to the
+      Startup Entrepreneur mindset and the importance of good work/life balance.
     </P>
     <P>
       I play the piano and make{' '}
@@ -43,7 +40,7 @@ const IndexPage = () =>
     <H3>Skills</H3>
     <ul>
       <li>
-        <b>JavaScript -</b> React, Node.js, functional programming
+        <b>JavaScript -</b> React, Node.js, FeathersJS
       </li>
       <li>
         <b>Golang -</b> Web services
@@ -51,15 +48,30 @@ const IndexPage = () =>
       <li>
         <b>Linux -</b> Command line, scripting
       </li>
+      <li>
+        <b>Databases -</b> MongoDB (shell, odm), MariaDB
+      </li>
+      <li>
+        <b>Cloud -</b> Google Cloud Platform (Datastore, BigQuery)
+      </li>
     </ul>
     <H3>Work Experiences</H3>
     <ul>
       <li>
-        <b>Oct. 2016 - July 2017 -</b> FullStack software developer at Schlouk
-        Map, Strasbourg
+        <b>Oct. 2016 - July 2017 -</b> FullStack developer at Schlouk Map,
+        Strasbourg
       </li>
       <li>
-        <b>Apr. 2015 - July 2015 -</b> Web developer at FD Canada, Quebec
+        <b>Apr. 2015 - July 2015 -</b> Web developer at FD Canada, Quebec City
+      </li>
+    </ul>
+    <H3>Prizes</H3>
+    <ul>
+      <li>
+        <b>Nov. 2016 -</b> Won Startup Weekend Strasbourg with{' '}
+        <Link href="https://ethikey.com/" external>
+          Ethikey
+        </Link>
       </li>
     </ul>
     <H3>Education</H3>

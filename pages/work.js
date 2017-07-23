@@ -14,7 +14,7 @@ const projects = [
   {
     name: 'Beautiful New Tab',
     description:
-      'A very lightweight chrome extension that displays a random Unsplash image for each new tab',
+      'A very lightweight chrome extension that displays a random Unsplash image on your new tab page',
     date: '18 August 2016',
     url:
       'https://chrome.google.com/webstore/detail/beautiful-new-tab/kojfjmoaofonodapbhpnmcbnanbhckon',
@@ -22,7 +22,7 @@ const projects = [
   {
     name: 'Get Epitech Ranking',
     description:
-      'Basically our internal dashboard sucked at figuring out students rank amongst other cities',
+      'Our internal dashboard was bad at figuring out students rank amongst other 11 cities',
     date: '1 March 2016',
     url: 'https://github.com/quentin-sommer/get-epitech-ranking',
   },
