@@ -19,34 +19,30 @@ const MenuItem = styled.li`
   font-weight: 400;
 `
 
-const Menu = () => {
-  const route = typeof window !== 'undefined' ? location.pathname : ''
-  return (
-    <nav>
-      <MenuList>
-        <MenuItem active={route === '/'}>
-          <Link href="/" clean prefetch>
-            Home
-          </Link>
-        </MenuItem>
-        <MenuItem active={route.includes('/work')}>
-          <Link href="/work" clean prefetch>
-            Work
-          </Link>
-        </MenuItem>
-        <MenuItem active={route.includes('/open-source')}>
-          <Link href="/open-source" clean prefetch>
-            OSS
-          </Link>
-        </MenuItem>
-        <MenuItem active={route.includes('/contact')}>
-          <Link href="/contact" clean prefetch>
-            Contact
-          </Link>
-        </MenuItem>
-      </MenuList>
-    </nav>
-  )
-}
+const Menu = ({activeUrl}) =>
+  <nav>
+    <MenuList>
+      <MenuItem active={activeUrl === '/'}>
+        <Link href="/" clean prefetch>
+          Home
+        </Link>
+      </MenuItem>
+      <MenuItem active={activeUrl === '/work'}>
+        <Link href="/work" clean prefetch>
+          Work
+        </Link>
+      </MenuItem>
+      <MenuItem active={activeUrl === '/open-source'}>
+        <Link href="/open-source" clean prefetch>
+          OSS
+        </Link>
+      </MenuItem>
+      <MenuItem active={activeUrl === '/contact'}>
+        <Link href="/contact" clean prefetch>
+          Contact
+        </Link>
+      </MenuItem>
+    </MenuList>
+  </nav>
 
 export default Menu

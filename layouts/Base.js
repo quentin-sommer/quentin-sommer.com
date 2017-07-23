@@ -12,11 +12,11 @@ const StyledBase = styled.div`
   flex-direction: column;
 `
 
-const Base = ({children}) =>
+const Base = ({children, url}) =>
   <ThemeProvider theme={theme}>
     <StyledBase>
       <Analytics track />
-      <Header />
+      <Header url={url} />
       <div style={{flex: 1}}>
         {children}
       </div>

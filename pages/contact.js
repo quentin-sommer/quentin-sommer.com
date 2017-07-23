@@ -7,7 +7,7 @@ import P from '../components/P'
 import Link from '../components/Link'
 
 const ContactPage = () =>
-  <Page>
+  <Page url="/contact">
     <H1>Contact</H1>
     <H2>Social media</H2>
     <SocialLinks />

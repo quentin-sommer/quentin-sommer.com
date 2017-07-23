@@ -26,7 +26,7 @@ const projects = [
 ]
 
 const OpenSourcePage = () =>
-  <Page>
+  <Page url="/open-source">
     <H1>Open Source Software</H1>
     <P>
       <b>sort by</b> date <b>desc</b>

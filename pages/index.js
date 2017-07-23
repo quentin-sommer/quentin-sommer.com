@@ -9,7 +9,7 @@ import Page from '../layouts/Page'
 import Menu from '../components/Menu'
 
 const IndexPage = () =>
-  <Page>
+  <Page url="/">
     <H1>Welcome</H1>
     <P>
       I'm a Software Developer and a computer science student from Strasbourg,

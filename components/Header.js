@@ -23,7 +23,7 @@ const HeaderContainer = styled.div`
   }
 `
 const TopMarginDiv = styled.div`margin-top: ${props => props.margin}rem;`
-const Header = () =>
+const Header = ({url}) =>
   <HeaderContainer>
     <div>
       <Link href="/" clean>
@@ -33,7 +33,7 @@ const Header = () =>
         <SocialLinks center />
       </TopMarginDiv>
       <TopMarginDiv margin="2">
-        <Menu />
+        <Menu activeUrl={url} />
       </TopMarginDiv>
     </div>
   </HeaderContainer>

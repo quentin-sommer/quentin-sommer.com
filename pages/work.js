@@ -29,7 +29,7 @@ const projects = [
 ]
 
 const WorkPage = () =>
-  <Page>
+  <Page url="/work">
     <H1>Projects</H1>
     <P>
       <b>sort by</b> date <b>desc</b>
