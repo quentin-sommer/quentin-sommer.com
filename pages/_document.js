@@ -42,6 +42,25 @@ export default class MyDocument extends Document {
     return (
       <html style={{backgroundColor: theme.bg}} lang="en">
         <Head>
+          <link
+            rel="icon"
+            type="image/png"
+            href="/static/favicon/favicon-16x16.png"
+            sizes="16x16"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            href="/static/favicon/favicon-32x32.png"
+            sizes="32x32"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            href="/static/favicon/favicon-96x96.png"
+            sizes="96x96"
+          />
+          <link rel="icon" type="icon" href="/static/favicon/favicon.ico" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta http-equiv="x-ua-compatible" content="ie=edge" />
           <meta name="theme-color" content={theme.bg} />
