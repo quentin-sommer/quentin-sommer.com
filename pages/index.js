@@ -8,7 +8,7 @@ import HR from '../components/HR'
 import Page from '../layouts/Page'
 import Menu from '../components/Menu'
 
-const IndexPage = () =>
+const IndexPage = () => (
   <Page url="/">
     <H1>Welcome</H1>
     <P>
@@ -84,5 +84,6 @@ const IndexPage = () =>
       </li>
     </ul>
   </Page>
+)
 
 export default IndexPage

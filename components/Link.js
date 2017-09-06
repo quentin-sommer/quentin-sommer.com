@@ -18,7 +18,7 @@ const A = styled.a`
     props.clean ? 'text-decoration: none;' : 'text-decoration: underline;'};
 `
 
-const Link = ({children, href, external, prefetch, ...props}) =>
+const Link = ({children, href, external, prefetch, ...props}) => (
   <NextLink href={href} prefetch={prefetch}>
     <A
       href={href}
@@ -30,6 +30,7 @@ const Link = ({children, href, external, prefetch, ...props}) =>
       {children}
     </A>
   </NextLink>
+)
 
 Link.propTypes = {
   href: PropTypes.string.isRequired,

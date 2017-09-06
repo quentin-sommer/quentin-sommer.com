@@ -23,7 +23,7 @@ const HeaderContainer = styled.div`
   }
 `
 const TopMarginDiv = styled.div`margin-top: ${props => props.margin}rem;`
-const Header = ({url}) =>
+const Header = ({url}) => (
   <HeaderContainer>
     <div>
       <Link href="/" clean>
@@ -37,5 +37,6 @@ const Header = ({url}) =>
       </TopMarginDiv>
     </div>
   </HeaderContainer>
+)
 
 export default Header

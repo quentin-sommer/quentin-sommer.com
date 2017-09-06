@@ -28,7 +28,7 @@ const projects = [
   },
 ]
 
-const WorkPage = () =>
+const WorkPage = () => (
   <Page url="/work">
     <H1>Projects</H1>
     <P>
@@ -36,5 +36,6 @@ const WorkPage = () =>
     </P>
     <ProjectList projects={projects} />
   </Page>
+)
 
 export default WorkPage

@@ -12,14 +12,10 @@ const Page = ({title, description, children, url}) => {
   return (
     <Base url={url}>
       <Head>
-        <title>
-          {fullTitle}
-        </title>
+        <title>{fullTitle}</title>
         <meta name="description" content={description} />
       </Head>
-      <Container>
-        {children}
-      </Container>
+      <Container>{children}</Container>
     </Base>
   )
 }

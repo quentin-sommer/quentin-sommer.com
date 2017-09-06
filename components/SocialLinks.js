@@ -10,14 +10,14 @@ const Wrapper = styled.div`
 const ImgLeft = styled.img`
   width: 1.75rem;
   height: 1.75rem;
-  margin: 0 .5rem 0 0;
+  margin: 0 0.5rem 0 0;
 `
 const ImgRight = styled.img`
   width: 1.75rem;
   height: 1.75rem;
-  margin: 0 0 0 .5rem;
+  margin: 0 0 0 0.5rem;
 `
-const SocialLinks = ({center}) =>
+const SocialLinks = ({center}) => (
   <Wrapper center={center}>
     <Link external href="https://twitter.com/quentin_smr">
       <ImgLeft src="/static/twitter.svg" alt="twitter social logo" />
@@ -26,5 +26,6 @@ const SocialLinks = ({center}) =>
       <ImgRight src="/static/github.svg" alt="twitter social logo" />
     </Link>
   </Wrapper>
+)
 
 export default SocialLinks

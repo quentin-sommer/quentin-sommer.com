@@ -23,7 +23,7 @@ const PhotoCredit = styled.a`
 `
 const MarginDiv = styled.div`margin: 1rem 0;`
 
-const Footer = () =>
+const Footer = () => (
   <StyledFooter>
     <MarginDiv>
       <P style={{marginBottom: '0'}}>
@@ -63,5 +63,6 @@ const Footer = () =>
       <P>© 2017 Quentin Sommer</P>
     </MarginDiv>
   </StyledFooter>
+)
 
 export default Footer

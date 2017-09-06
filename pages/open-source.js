@@ -25,7 +25,7 @@ const projects = [
   },
 ]
 
-const OpenSourcePage = () =>
+const OpenSourcePage = () => (
   <Page url="/open-source">
     <H1>Open Source Software</H1>
     <P>
@@ -33,5 +33,6 @@ const OpenSourcePage = () =>
     </P>
     <ProjectList projects={projects} />
   </Page>
+)
 
 export default OpenSourcePage

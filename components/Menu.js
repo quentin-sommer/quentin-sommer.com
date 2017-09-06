@@ -10,7 +10,7 @@ const MenuList = styled.ul`
 `
 
 const MenuItem = styled.li`
-  margin: .5rem;
+  margin: 0.5rem;
   font-size: 1.25rem;
   border-bottom: ${props =>
     props.active ? '2px solid #697082;' : '2px solid white'};
@@ -19,7 +19,7 @@ const MenuItem = styled.li`
   font-weight: 400;
 `
 
-const Menu = ({activeUrl}) =>
+const Menu = ({activeUrl}) => (
   <nav>
     <MenuList>
       <MenuItem active={activeUrl === '/'}>
@@ -44,5 +44,6 @@ const Menu = ({activeUrl}) =>
       </MenuItem>
     </MenuList>
   </nav>
+)
 
 export default Menu

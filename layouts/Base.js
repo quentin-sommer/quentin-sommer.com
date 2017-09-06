@@ -12,18 +12,17 @@ const StyledBase = styled.div`
   flex-direction: column;
 `
 
-const Base = ({children, url}) =>
+const Base = ({children, url}) => (
   <ThemeProvider theme={theme}>
     <StyledBase>
       <Analytics track />
       <Header url={url} />
-      <div style={{flex: 1}}>
-        {children}
-      </div>
+      <div style={{flex: 1}}>{children}</div>
       <Container style={{marginTop: 0}}>
         <Footer />
       </Container>
     </StyledBase>
   </ThemeProvider>
+)
 
 export default Base

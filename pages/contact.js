@@ -6,7 +6,7 @@ import SocialLinks from '../components/SocialLinks'
 import P from '../components/P'
 import Link from '../components/Link'
 
-const ContactPage = () =>
+const ContactPage = () => (
   <Page url="/contact">
     <H1>Contact</H1>
     <H2>Social media</H2>
@@ -18,5 +18,6 @@ const ContactPage = () =>
       </Link>
     </P>
   </Page>
+)
 
 export default ContactPage
