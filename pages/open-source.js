@@ -6,6 +6,19 @@ import ProjectList from '../components/ProjectList'
 
 const projects = [
   {
+    name: 'babel-node-env',
+    description: 'no config transparent cli to use babel with node',
+    date: '10 November 2017',
+    url: 'https://github.com/quentin-sommer/babel-node-env',
+  },
+  {
+    name: 'csv-explorer',
+    description:
+      'Tool to explore small to large (millions of lines) csv files on the web.',
+    date: '5 November 2017',
+    url: 'github.com/quentin-sommer/csv-explorer',
+  },
+  {
     name: 'react-useragent',
     description: 'Creator and maintainer',
     date: '6 June 2017',
