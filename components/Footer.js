@@ -21,7 +21,9 @@ const PhotoCredit = styled.a`
   display:inline-block;
   border-radius:3px;
 `
-const MarginDiv = styled.div`margin: 1rem 0;`
+const MarginDiv = styled.div`
+  margin: 1rem 0;
+`
 
 const Footer = () => (
   <StyledFooter>

@@ -22,7 +22,9 @@ const HeaderContainer = styled.div`
     min-height: 350px;
   }
 `
-const TopMarginDiv = styled.div`margin-top: ${props => props.margin}rem;`
+const TopMarginDiv = styled.div`
+  margin-top: ${props => props.margin}rem;
+`
 const Header = ({url}) => (
   <HeaderContainer>
     <div>
