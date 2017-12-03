@@ -16,7 +16,7 @@ const projects = [
     description:
       'Tool to explore small to large (millions of lines) csv files on the web.',
     date: '5 November 2017',
-    url: 'github.com/quentin-sommer/csv-explorer',
+    url: 'https://github.com/quentin-sommer/csv-explorer',
   },
   {
     name: 'react-useragent',
