@@ -6,12 +6,10 @@
   "scripts": {
     "build": "next build && next export",
     "bundle:view": "webpack-bundle-analyzer .next/stats.json",
-    "deploy": "npm run lint && npm run build && npm run upload",
     "lint": "prettier --no-semi --single-quote --no-bracket-spacing --trailing-comma es5 './{components,layouts,lib,pages}/**/*.js' --write",
     "start": "per-env",
     "start:development": "npm run lint && next dev",
-    "start:production": "next start",
-    "upload": "netlify deploy"
+    "start:production": "next start"
   },
   "repository": {
     "type": "git",
