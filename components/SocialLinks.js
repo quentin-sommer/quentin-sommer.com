@@ -23,7 +23,7 @@ const SocialLinks = ({center}) => (
       <ImgLeft src="/static/twitter.svg" alt="twitter social logo" />
     </Link>
     <Link external href="https://github.com/quentin-sommer">
-      <ImgRight src="/static/github.svg" alt="twitter social logo" />
+      <ImgRight src="/static/github.svg" alt="github social logo" />
     </Link>
   </Wrapper>
 )
