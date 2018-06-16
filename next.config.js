@@ -15,11 +15,5 @@ module.exports = {
   webpack: (config, {dev}) => {
     disableBableLoderCache(config)
     return config
-  },
-  exportPathMap: () => ({
-    '/': {page: '/'},
-    '/contact': {page: '/contact'},
-    '/open-source': {page: '/open-source'},
-    '/work': {page: '/work'},
-  })
+  }
 }
