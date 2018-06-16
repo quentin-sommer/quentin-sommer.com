@@ -22,8 +22,8 @@ const IndexPage = () => (
     <H2>About me</H2>
     <P>
       I am currently studying Computer Science at EPITECH, specializing in
-      FullStack web development. My tool of choice is JavaScript.<br />
-      Interested in personal development and happiness research. I Adhere to the
+      Backend development. My tool of choice are JavaScript and Go.<br />
+      I'm Interested in personal development and think that life is what you decide to make with it. I Adhere to the
       Startup Entrepreneur mindset and the importance of good work/life balance.
     </P>
     <P>
@@ -31,40 +31,51 @@ const IndexPage = () => (
       <Link external href="https://soundcloud.com/anakrose">
         music
       </Link>{' '}
-      with my computer. Strong believer in the Open Web and enjoy functional
-      programming.<br />
-      Besides computing I enjoy discussing psychology and science in general.
+      with my computer. Strong believer in the Open Web.<br />
+      Besides computing I enjoy traveling lightly, get lost in nature and discussing about everything.
     </P>
     <HR />
     <H2>Resume</H2>
     <H3>Skills</H3>
     <ul>
       <li>
-        <b>JavaScript -</b> React, Node.js, FeathersJS
+        <b>JavaScript -</b> Node.js, Feathers, React
       </li>
       <li>
-        <b>Golang -</b> Web services
+        <b>Go -</b> Web services, Gin
       </li>
       <li>
         <b>Linux -</b> Command line, scripting
       </li>
       <li>
-        <b>Databases -</b> MongoDB (shell, odm), MariaDB
+        <b>Databases -</b> MongoDB (shell, odm), MariaDB/MySQL
       </li>
       <li>
-        <b>Cloud -</b> Google Cloud Platform (Datastore, BigQuery)
+        <b>Cloud -</b> Google Cloud (Datastore, BigQuery)
       </li>
     </ul>
     <H3>Work Experiences</H3>
     <ul>
       <li>
-        <b>Oct. 2016 - July 2017 -</b> FullStack developer at Schlouk Map,
+        <b>Sept. 2017 - July 2018 -</b> RealTime backend developer at{' '}
+        <Link external href={'https://transit.app'}>Transit</Link>, Montreal
+      </li>
+      <li>
+        <b>Oct. 2016 - July 2017 -</b> FullStack developer at <Link external href={'https://schlouk-map.com'}>Schlouk Map</Link>
+        ,
         Strasbourg
       </li>
       <li>
         <b>Apr. 2015 - July 2015 -</b> Web developer at FD Canada, Quebec City
       </li>
     </ul>
+    <H3>Public Speaking</H3>
+    <ul>
+      <li>
+        Building <i>fast</i> web apps, using Web Workers - <Link external href='https://docs.google.com/presentation/d/1Ue0o2LboorM5ptsPN3FGvbqDuBKJp2wQYbqOu30wVmM/edit?usp=sharing'>Slides</Link>
+      </li>
+    </ul>
+
     <H3>Prizes</H3>
     <ul>
       <li>
