@@ -16,16 +16,16 @@ const IndexPage = () => (
       France.
     </P>
     <P>
-      This is my personal website where you can find some projects I worked on,
-      my open source activity, and some info about me.
+      This is my personal website where you can find some projects I worked on, my
+      open source activity, and some info about me.
     </P>
     <H2>About me</H2>
     <P>
-      I am currently studying Computer Science at EPITECH, specializing in
-      Backend development. My tool of choice are JavaScript and Go.<br />
-      I'm Interested in personal development and think that life is what you
-      decide to make with it. I Adhere to the Startup Entrepreneur mindset and
-      the importance of good work/life balance.
+      I am currently studying Computer Science at EPITECH, specializing in Backend
+      development. My tool of choice are JavaScript and Go.<br />
+      I'm Interested in personal development and think that life is what you decide
+      to make with it. I Adhere to the Startup Entrepreneur mindset and the
+      importance of good work/life balance.
     </P>
     <P>
       I play the piano and make{' '}
@@ -33,8 +33,8 @@ const IndexPage = () => (
         music
       </Link>{' '}
       with my computer. Strong believer in the Open Web.<br />
-      Besides computing I enjoy traveling lightly, get lost in nature and
-      discussing about everything.
+      Besides computing I enjoy traveling lightly, get lost in nature and discussing
+      about everything.
     </P>
     <HR />
     <H2>Resume</H2>
@@ -78,7 +78,8 @@ const IndexPage = () => (
     <H3>Public Speaking</H3>
     <ul>
       <li>
-        Building <i>fast</i> web apps, using Web Workers -{' '}
+        <b>Mar. 2018 -</b> Building <i>fast</i> web apps using Web Workers. @Montreal
+        js{' '}
         <Link
           external
           href="https://docs.google.com/presentation/d/1Ue0o2LboorM5ptsPN3FGvbqDuBKJp2wQYbqOu30wVmM/edit?usp=sharing"
