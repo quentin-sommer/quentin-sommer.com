@@ -15,7 +15,8 @@ const projects = [
   {
     name: 'CSV-Explorer',
     role: 'Creator and maintainer',
-    description: 'Web-based tool to explore large (millions of lines) CSV files.',
+    description:
+      'Web-based tool to explore large (millions of lines) CSV files.',
     date: '5 November 2017',
     url: 'https://github.com/quentin-sommer/csv-explorer',
   },

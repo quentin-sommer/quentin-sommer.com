@@ -18,8 +18,14 @@ const ProjectList = ({projects}) => (
           <H2>{project.name}</H2>
         </Link>
         <P>
-          <b>{project.date}</b> - {project.role ? project.role : project.description}
-          {project.role && <span><br/>{project.description}</span>}
+          <b>{project.date}</b> -{' '}
+          {project.role ? project.role : project.description}
+          {project.role && (
+            <span>
+              <br />
+              {project.description}
+            </span>
+          )}
         </P>
       </li>
     ))}
