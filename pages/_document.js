@@ -62,7 +62,7 @@ export default class MyDocument extends Document {
           />
           <link rel="icon" type="icon" href="/static/favicon/favicon.ico" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta http-equiv="x-ua-compatible" content="ie=edge" />
+          <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="theme-color" content={theme.bg} />
           <style dangerouslySetInnerHTML={{__html: fonts}} />
           <TypographyStyle typography={typography} />
