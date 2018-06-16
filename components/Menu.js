@@ -28,13 +28,13 @@ const Menu = ({activeUrl}) => (
         </Link>
       </MenuItem>
       <MenuItem active={activeUrl === '/work'}>
-        <Link href="/work" clean prefetch>
-          Work
+        <Link href="/projects" clean prefetch>
+          Projects
         </Link>
       </MenuItem>
       <MenuItem active={activeUrl === '/open-source'}>
         <Link href="/open-source" clean prefetch>
-          OSS
+          Open-Source
         </Link>
       </MenuItem>
       <MenuItem active={activeUrl === '/contact'}>
