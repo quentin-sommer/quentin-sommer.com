@@ -1,13 +1,14 @@
 import * as React from 'react'
-import Document, {Head, Main, NextScript} from 'next/document'
-import {ServerStyleSheet} from 'styled-components'
-import {TypographyStyle} from 'react-typography'
+import Document, { Head, Main, NextScript } from 'next/document'
+import { ServerStyleSheet } from 'styled-components'
+import { TypographyStyle } from 'react-typography'
 import typography from '../lib/typography'
 import theme from '../lib/theme'
 
 const fonts = `
 @font-face {
   font-family: 'Amaranth';
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
   src: url('/static/fonts/amaranth-latin-400.eot');
@@ -21,6 +22,7 @@ const fonts = `
 }
 @font-face {
   font-family: 'Amaranth';
+  font-display: swap;
   font-style: normal;
   font-weight: 700;
   src: url('/static/fonts/amaranth-latin-700.eot');
@@ -40,7 +42,7 @@ export default class MyDocument extends Document {
     const main = sheet.collectStyles(<Main />)
     const styleTags = sheet.getStyleElement()
     return (
-      <html style={{backgroundColor: theme.bg}} lang="en">
+      <html style={{ backgroundColor: theme.bg }} lang="en">
         <Head>
           <link
             rel="icon"
@@ -64,7 +66,7 @@ export default class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="theme-color" content={theme.bg} />
-          <style dangerouslySetInnerHTML={{__html: fonts}} />
+          <style dangerouslySetInnerHTML={{ __html: fonts }} />
           <TypographyStyle typography={typography} />
           {styleTags}
         </Head>
