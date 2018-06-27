@@ -62,7 +62,7 @@ const Footer = () => (
       <SocialLinks />
     </MarginDiv>
     <MarginDiv>
-      <P>© 2017 Quentin Sommer</P>
+      <P>© {new Date().getFullYear()} Quentin Sommer</P>
     </MarginDiv>
   </StyledFooter>
 )
