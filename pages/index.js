@@ -34,7 +34,7 @@ const IndexPage = () => (
       </Link>{' '}
       with my computer. Strong believer in the Open Web.<br />
       Besides computing I enjoy traveling lightly, get lost in nature and
-      discussing about everything.
+      discussing everything.
     </P>
     <HR />
     <H2>Resume</H2>
