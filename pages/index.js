@@ -22,7 +22,7 @@ const IndexPage = () => (
     <H2>About me</H2>
     <P>
       I am currently studying Computer Science at EPITECH, specializing in
-      Backend development. My tool of choice are JavaScript and Go.<br />
+      Backend development. My tools of choice are JavaScript and Go.<br />
       I'm Interested in personal development and think that life is what you
       decide to make with it. I Adhere to the Startup Entrepreneur mindset and
       the importance of good work/life balance.
