@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/quentin-sommer/quentin-sommer.com#readme",
   "dependencies": {
-    "next": "^6.0.0",
+    "next": "^7.0.0",
     "per-env": "^1.0.2",
     "prettier": "^1.4.4",
     "react": "^16.1.1",
