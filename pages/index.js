@@ -22,7 +22,8 @@ const IndexPage = () => (
     <H2>About me</H2>
     <P>
       I am currently studying Computer Science at EPITECH, specializing in
-      Backend development. My tools of choice are JavaScript and Go.<br />
+      Backend development. My tools of choice are JavaScript and Go.
+      <br />
       I'm Interested in personal development and think that life is what you
       decide to make with it. I Adhere to the Startup Entrepreneur mindset and
       the importance of good work/life balance.
@@ -32,7 +33,8 @@ const IndexPage = () => (
       <Link external href="https://soundcloud.com/anakrose">
         music
       </Link>{' '}
-      with my computer. Strong believer in the Open Web.<br />
+      with my computer. Strong believer in the Open Web.
+      <br />
       Besides computing I enjoy traveling lightly, get lost in nature and
       discussing everything.
     </P>
@@ -62,7 +64,8 @@ const IndexPage = () => (
         <b>Sept. 2017 - July 2018 -</b> RealTime backend developer at{' '}
         <Link external href={'https://transit.app'}>
           Transit
-        </Link>, Montreal
+        </Link>
+        , Montreal
       </li>
       <li>
         <b>Oct. 2016 - July 2017 -</b> FullStack developer at{' '}
