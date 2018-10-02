@@ -61,6 +61,13 @@ const IndexPage = () => (
     <H3>Work Experiences</H3>
     <ul>
       <li>
+        <b>Sept. 2018 - now</b> Software Engineer at{' '}
+        <Link external href={'https://aircall.io'}>
+          Aircall
+        </Link>
+        , Paris
+      </li>
+      <li>
         <b>Sept. 2017 - July 2018 -</b> RealTime backend developer at{' '}
         <Link external href={'https://transit.app'}>
           Transit
