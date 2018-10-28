@@ -61,7 +61,7 @@ const IndexPage = () => (
     <H3>Work Experiences</H3>
     <ul>
       <li>
-        <b>Sept. 2018 - now</b> Software Engineer at{' '}
+        <b>Sept. 2018 - now -</b> Software Engineer at{' '}
         <Link external href={'https://aircall.io'}>
           Aircall
         </Link>
