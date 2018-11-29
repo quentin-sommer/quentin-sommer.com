@@ -117,6 +117,9 @@ const IndexPage = () => (
         <b>2015-2019 -</b> EPITECH Strasbourg, Master degree in Computer Science
       </li>
       <li>
+        <b>2017-2018 -</b> Concordia University Montreal, student exchange
+      </li>
+      <li>
         <b>2013-2015 -</b> IUT Robert Schumann, 2 years Computer Science degree
       </li>
     </ul>
