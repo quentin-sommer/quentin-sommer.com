@@ -46,13 +46,16 @@ const IndexPage = () => (
         <b>JavaScript -</b> Node.js, Feathers, React
       </li>
       <li>
+        <b>Ruby - </b> Sinatra
+      </li>
+      <li>
         <b>Go -</b> Web services, Gin
       </li>
       <li>
         <b>Linux -</b> Command line, scripting
       </li>
       <li>
-        <b>Databases -</b> MongoDB (shell, odm), MariaDB/MySQL
+        <b>Databases -</b> MongoDB, MariaDB/MySQL, Redis
       </li>
       <li>
         <b>Cloud -</b> Google Cloud (Datastore, BigQuery)
