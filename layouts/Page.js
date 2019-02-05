@@ -25,6 +25,10 @@ const Page = ({title, description, children, url}) => {
         <meta property="og:description" content={description} />
         <meta property="og:locale" content="en" />
         <meta property="og:site_name" content="Quentin Sommer" />
+        <meta
+          name="google-site-verification"
+          content="SBJpMGwsQs5K9yn7G6nMdPtzPqmKC13P7cReGoN71gE"
+        />
       </Head>
       <Container>{children}</Container>
     </Base>
