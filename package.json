@@ -4,7 +4,7 @@
   "description": "Personal website",
   "main": "index.js",
   "scripts": {
-    "build": "next build",
+    "build": "next build && next export",
     "lint": "prettier --no-semi --single-quote --no-bracket-spacing --trailing-comma es5 './{components,layouts,lib,pages}/**/*.js' --write",
     "start": "per-env",
     "start:development": "npm run lint && next dev",
