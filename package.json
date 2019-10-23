@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.1.4",
-    "babel-plugin-transform-define": "^1.3.0",
+    "babel-plugin-transform-define": "^2.0.0",
     "prop-types": "^15.5.10"
   }
 }
