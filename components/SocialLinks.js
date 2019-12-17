@@ -20,10 +20,10 @@ const ImgRight = styled.img`
 const SocialLinks = ({center}) => (
   <Wrapper center={center}>
     <Link external href="https://twitter.com/quentin_smr">
-      <ImgLeft src="/static/twitter.svg" alt="twitter social logo" />
+      <ImgLeft src="/twitter.svg" alt="twitter social logo" />
     </Link>
     <Link external href="https://github.com/quentin-sommer">
-      <ImgRight src="/static/github.svg" alt="github social logo" />
+      <ImgRight src="/github.svg" alt="github social logo" />
     </Link>
   </Wrapper>
 )

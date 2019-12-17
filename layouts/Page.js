@@ -18,10 +18,7 @@ const Page = ({title, description, children, url}) => {
         <meta property="og:title" content={fullTitle} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`${baseUrl}${url}`} />
-        <meta
-          property="og:image"
-          content={`${baseUrl}/static/background.jpg`}
-        />
+        <meta property="og:image" content={`${baseUrl}/background.jpg`} />
         <meta property="og:description" content={description} />
         <meta property="og:locale" content="en" />
         <meta property="og:site_name" content="Quentin Sommer" />

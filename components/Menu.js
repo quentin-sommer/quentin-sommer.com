@@ -23,22 +23,22 @@ const Menu = ({activeUrl}) => (
   <nav>
     <MenuList>
       <MenuItem active={activeUrl === '/'}>
-        <Link href="/" clean prefetch>
+        <Link href="/" clean>
           Home
         </Link>
       </MenuItem>
       <MenuItem active={activeUrl === '/work'}>
-        <Link href="/projects" clean prefetch>
+        <Link href="/projects" clean>
           Projects
         </Link>
       </MenuItem>
       <MenuItem active={activeUrl === '/open-source'}>
-        <Link href="/open-source" clean prefetch>
+        <Link href="/open-source" clean>
           Open-Source
         </Link>
       </MenuItem>
       <MenuItem active={activeUrl === '/contact'}>
-        <Link href="/contact" clean prefetch>
+        <Link href="/contact" clean>
           Contact
         </Link>
       </MenuItem>
