@@ -8,8 +8,8 @@ export default class Analytics extends React.PureComponent {
     if (!this.props.track) {
       return
     }
-    ReactGA.initialize(__GA_ID__, {
-      debug: __DEV__,
+    ReactGA.initialize(process.env.NODE_ENV !== 'production' ? 'dev-ga' : 'UA-77436866-4', {
+      debug: process.env.NODE_ENV !== 'production',
     })
 
     const page =
