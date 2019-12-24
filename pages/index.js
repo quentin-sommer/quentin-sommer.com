@@ -12,31 +12,37 @@ const IndexPage = () => (
   <Page url="/">
     <H1>Welcome</H1>
     <P>
-      I'm a Software Developer and a computer science student from Strasbourg,
-      France.
+      I'm a Software Developer from{' '}
+      <Link external href="https://en.wikipedia.org/wiki/Strasbourg">
+        Strasbourg, France.
+      </Link>
     </P>
     <P>
       This is my personal website where you can find some projects I worked on,
-      my open source activity, and some info about me.
+      my open source activity and some info about me.
     </P>
     <H2>About me</H2>
     <P>
-      I am currently studying Computer Science at EPITECH, specializing in
-      Backend development. My tools of choice are JavaScript and Go.
+      I am currently working at{' '}
+      <Link external href="https://aircall.io">
+        Aircall
+      </Link>{' '}
+      as a backend engineer on telephony-related projects. I graduated from
+      EPITECH in Computer Science, specializing in backend development. My tools
+      of choice are Node.js, Ruby and Go.
       <br />
-      I'm Interested in personal development and think that life is what you
-      decide to make with it. I Adhere to the Startup Entrepreneur mindset and
-      the importance of good work/life balance.
+      I'm interested in personal development and a strong beliver in the Open
+      Web!
     </P>
     <P>
       I play the piano and make{' '}
       <Link external href="https://soundcloud.com/anakrose">
         music
       </Link>{' '}
-      with my computer. Strong believer in the Open Web.
+      with my computer.
       <br />
-      Besides computing I enjoy traveling lightly, get lost in nature and
-      discussing everything.
+      Besides computing I enjoy traveling lightly, get lost in nature and a cold
+      beer while watching the sunset.
     </P>
     <HR />
     <H2>Resume</H2>
@@ -55,10 +61,13 @@ const IndexPage = () => (
         <b>Linux -</b> Command line, scripting
       </li>
       <li>
-        <b>Databases -</b> MongoDB, MariaDB/MySQL, Redis
+        <b>Databases -</b> MongoDB, MySQL, Redis
       </li>
       <li>
-        <b>Cloud -</b> Google Cloud (Datastore, BigQuery)
+        <b>Google Cloud -</b> Firebase, Datastore, BigQuery
+      </li>
+      <li>
+        <b>AWS -</b> SNS, SQS, S3, DynamoDB
       </li>
     </ul>
     <H3>Work Experiences</H3>
