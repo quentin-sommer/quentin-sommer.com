@@ -32,11 +32,12 @@ const Menu = ({activeUrl}) => (
           Projects
         </Link>
       </MenuItem>
-      <MenuItem active={activeUrl === '/open-source'}>
+      {/**<MenuItem active={activeUrl === '/open-source'}>
         <Link href="/open-source" clean>
           Open-Source
         </Link>
       </MenuItem>
+      **/}
       <MenuItem active={activeUrl === '/contact'}>
         <Link href="/contact" clean>
           Contact

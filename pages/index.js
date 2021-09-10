@@ -4,9 +4,7 @@ import H1 from '../components/Titles/H1'
 import Link from '../components/Link'
 import H2 from '../components/Titles/H2'
 import H3 from '../components/Titles/H3'
-import HR from '../components/HR'
 import Page from '../layouts/Page'
-import Menu from '../components/Menu'
 
 const IndexPage = () => (
   <Page url="/">
@@ -24,56 +22,49 @@ const IndexPage = () => (
     <H2>About me</H2>
     <P>
       I am currently working at{' '}
-      <Link external href="https://aircall.io">
-        Aircall
+      <Link external href="https://transitapp.com">
+        Transit
       </Link>{' '}
-      as a backend engineer on telephony-related projects. I graduated from
-      EPITECH in Computer Science, specializing in backend development. My tools
-      of choice are Node.js, Ruby and Go.
-      <br />
-      I'm interested in personal development and a strong beliver in the Open
-      Web!
+      as a Data engineer. I graduated from EPITECH in Computer Science,
+      specializing in backend development. My tools of choice are Node.js, Ruby,
+      and Python.
     </P>
-    <P>
-      I play the piano and make{' '}
-      <Link external href="https://soundcloud.com/anakrose">
-        music
-      </Link>{' '}
-      with my computer.
-      <br />
-      Besides computing I enjoy traveling lightly, get lost in nature and a cold
-      beer while watching the sunset.
-    </P>
-    <HR />
     <H2>Resume</H2>
     <H3>Skills</H3>
     <ul>
       <li>
-        <b>JavaScript -</b> Node.js, Feathers, React
+        <b>JavaScript -</b> Node.js, Feathers, Next.js, React
+      </li>
+      <li>
+        <b>Python -</b> Apache Beam, Airflow
       </li>
       <li>
         <b>Ruby - </b> Sinatra
       </li>
       <li>
-        <b>Go -</b> Web services, Gin
-      </li>
-      <li>
         <b>Linux -</b> Command line, scripting
       </li>
       <li>
-        <b>Databases -</b> MongoDB, MySQL, Redis
+        <b>Databases -</b> MySQL, MongoDB, Redis
       </li>
       <li>
-        <b>Google Cloud -</b> Firebase, Datastore, BigQuery
+        <b>Google Cloud -</b> Dataflow, PubSub, BigQuery, Firebase, Datastore
       </li>
       <li>
-        <b>AWS -</b> SNS, SQS, S3, DynamoDB
+        <b>AWS -</b> SNS, SQS, S3, Lambda, DynamoDB
       </li>
     </ul>
     <H3>Work Experiences</H3>
     <ul>
       <li>
-        <b>Sept. 2018 - now -</b> Software Engineer at{' '}
+        <b>Feb. 2021 - now -</b> Data Engineer at{' '}
+        <Link external href={'https://transitapp.com'}>
+          Transit
+        </Link>
+        , Paris - Montreal
+      </li>
+      <li>
+        <b>Sept. 2018 - Nov. 2020 -</b> Software Engineer at{' '}
         <Link external href={'https://aircall.io'}>
           Aircall
         </Link>
@@ -95,29 +86,6 @@ const IndexPage = () => (
       </li>
       <li>
         <b>Apr. 2015 - July 2015 -</b> Web developer at FD Canada, Quebec City
-      </li>
-    </ul>
-    <H3>Public Speaking</H3>
-    <ul>
-      <li>
-        <b>Mar. 2018 -</b> Building <i>fast</i> web apps using Web Workers.
-        @Montreal js{' '}
-        <Link
-          external
-          href="https://docs.google.com/presentation/d/1Ue0o2LboorM5ptsPN3FGvbqDuBKJp2wQYbqOu30wVmM/edit?usp=sharing"
-        >
-          Slides
-        </Link>
-      </li>
-    </ul>
-
-    <H3>Prizes</H3>
-    <ul>
-      <li>
-        <b>Nov. 2016 -</b> Won Startup Weekend Strasbourg with{' '}
-        <Link href="https://ethikey.com/" external>
-          Ethikey
-        </Link>
       </li>
     </ul>
     <H3>Education</H3>
