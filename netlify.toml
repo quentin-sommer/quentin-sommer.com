@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "https://qsmr.dev"
+  to = "https://www.quentin-sommer.com"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.qsmr.dev"
+  to = "https://www.quentin-sommer.com"
+  status = 301
+  force = true
